@@ -54,7 +54,7 @@ APIが登場した頃に幅広く使用されていたAPI。XMLと呼ばれる�
 
 railsを勉強する上でも学んだrestを意識したApiのこと。
 
-Rest　をすごい簡単にいうと見た目綺麗でわかりやすい良いアプリですよねみたいな感じ。
+[Rest](https://www.infraexpert.com/study/sdn09.html)　をすごい簡単にいうと見た目綺麗でわかりやすい良いアプリですよねみたいな感じ。
 
 # 一般的なWebApiの使用方法
 
