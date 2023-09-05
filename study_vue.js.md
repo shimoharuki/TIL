@@ -164,5 +164,49 @@ routeに遷移することができて、遷移先の　vueファイルの中身
 
 別のファイルから指定する際は必要になる。
 
+# ファイルが表示される流れ
+
+vueファイルでnameを指定し、リンクを用意
+```
+<div class="text-center">
+      <h3>タスクを管理しよう！</h3>
+      <div class="mt-4">生活や仕事に関するタスクを見える化して抜け漏れを防ぎましょう。</div>
+      <router-link :to="{ name: 'TaskIndex' }" class="btn btn-dark mt-5">はじめる</router-link>
+    </div>
+```
+
+リンクを踏んだ際、指定したnameに基づくコンポーネントを呼び出す
+
+```
+const router = new Router({
+  mode: "history",
+  routes: [
+    {
+      path: "/",
+      component: TopIndex,
+      name: "TopIndex",
+
+    },
+    {
+
+ここ↓
+      path: "/tasks",
+      component: TaskIndex,
+      name: "TaskIndex",
+    },
+  ],
+})
+```
+
+呼び出されたコンポーネントに紐ずくvueファイルが表示される
+
+```
+import TopIndex from "../pages/top/index";
+import TaskIndex from "../pages/task/index";
+/pages/task/index.vueファイルが呼び出される
+```
+
+
+
 
 
