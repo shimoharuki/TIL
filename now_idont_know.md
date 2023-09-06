@@ -9,3 +9,6 @@ docker-compose内のvolumesがよくわからない
 
 rubyで使用されるselectメソッドについてよくわかっていないのが現実
 
+# ruby deleteメソッドについて
+
+deleteメソッドと^を使用するコードがいまいちよくわかっていない
