@@ -4,3 +4,8 @@ docckerfile,docker-compose内のコードの意味がいまいちよくわかっ
 特にCMDコマンド
 
 docker-compose内のvolumesがよくわからない
+
+# ruby selectメソッドについて
+
+rubyで使用されるselectメソッドについてよくわかっていないのが現実
+
