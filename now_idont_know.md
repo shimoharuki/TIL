@@ -1,0 +1,2 @@
+# dockerfileについて
+docckerfile,docker-compose内のコードの意味がいまいちよくわかっていない
