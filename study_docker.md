@@ -148,3 +148,13 @@ mkdirでapp_nameを作成したり、bundleinstallを実行したり色々なこ
 dockerfileを作成するときはエフェメラル(一時的)なコンテナを作成することが望ましい。
 
 すぐに停止、破棄が可能であり、圧倒的に最小限であることが条件
+
+# dockercompose.ymlについて
+
+書き方が大体定まっている感じがする
+
+大きく分けて3つに分かれる
+
+`version`docker-composeのバージョン
+
+`services` db指定の際の場所　　どのdbを使用するか(image)環境変数の指定(environment)公開用のポート(ports)
