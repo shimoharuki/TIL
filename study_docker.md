@@ -124,3 +124,21 @@ docker-compose build
 docker-compose up
 
 ```
+
+# dockerfile のよくある命令文
+
+`FROM`どのdockerイメージを使用するか今回だとruby2.5.1
+
+多分これがないとどの言語が使用されるかわからない状態だから必須か?
+
+`COPY`現ディレクトリからファイルをコピー
+
+上記の場合だとGemfile,Gemfile.lockのコピーを行っている
+
+`RUN`命令実行を行うこと
+
+mkdirでapp_nameを作成したり、bundleinstallを実行したり色々なことができると考えて良さそう。
+
+`CMD`コンテナ内で実行するコマンドを指定
+
+今のとこよくわかっていない
