@@ -158,3 +158,5 @@ dockerfileを作成するときはエフェメラル(一時的)なコンテナ�
 `version`docker-composeのバージョン
 
 `services` db指定の際の場所　　どのdbを使用するか(image)環境変数の指定(environment)公開用のポート(ports)
+
+`web`webにアクセスするための場所 コンテナ作成の際に行うdockerファイルの場所(build)サーバーを立ち上げた際のアクセス(command)ボリュームの作成(volumes)ポート番号の指定(ports)サービス間の依存関係(depends_on)
