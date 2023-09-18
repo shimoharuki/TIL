@@ -94,3 +94,16 @@ SELECT name
 FROM courses
 WHERE name LIKE "%対策%
 ```
+
+問題16
+```
+SELECT name , price 
+FROM courses
+WHERE price >= 1000000 OR LENGTH (name) >= 50
+```
+問題17 
+```
+SELECT  ROUND (price / 100000,  1 )
+FROM courses
+WHERE name = "面接試験対策直前特訓"
+```
