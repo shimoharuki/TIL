@@ -163,3 +163,10 @@ SELECT  description
 FROM subject_types
 WHERE description LIKE '通訳が必要でない%'
 ```
+問題26 
+```
+SELECT  *
+FROM rooms 
+WHERE description = 'classroom 301' AND name = 301
+OR description = 'classroom 305' AND name = 305
+```
