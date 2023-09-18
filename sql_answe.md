@@ -136,3 +136,10 @@ SELECT  student_id ,total
 FROM student_points
 WHERE total >= 7000
 ```
+
+問題22
+```
+SELECT  student_id ,total,used
+FROM student_points
+WHERE total >= 7000 AND used <= 2000
+```
