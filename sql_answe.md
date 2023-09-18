@@ -157,3 +157,9 @@ FROM subject_types
 WHERE name IN ('通訳不要', '通訳必要', '通訳手配済み','デフォルト')
 
 ```
+問題25
+```
+SELECT  description
+FROM subject_types
+WHERE description LIKE '通訳が必要でない%'
+```
