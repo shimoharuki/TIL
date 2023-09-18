@@ -119,3 +119,14 @@ SELECT  name
 FROM courses
 WHERE name LIKE '予%' AND name <> '予備総合コース'
 ```
+問題20
+```
+SELECT  code 
+FROM roles
+WHERE code LIKE '%A%'
+AND code LIKE '%I%'
+AND code LIKE '%U%'
+AND code LIKE '%E%'
+AND code NOT LIKE '%O%'
+AND code NOT LIKE '%P%'
+```
