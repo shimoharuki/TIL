@@ -87,3 +87,10 @@ SELECT name , code
 FROM roles
 WHERE code IN ('STAFF_ADMIN', 'MASTER_CONTROL','STUDENT_PRIVACY_ACCESSIBLE')
 ```
+問題15
+
+```
+SELECT name
+FROM courses
+WHERE name LIKE "%対策%
+```
