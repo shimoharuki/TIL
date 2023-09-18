@@ -113,3 +113,9 @@ SELECT code , name
 FROM roles
 WHERE LENGTH (code) = LENGTH (name)
 ```
+問題19
+```
+SELECT  name
+FROM courses
+WHERE name LIKE '予%' AND name <> '予備総合コース'
+```
