@@ -36,3 +36,26 @@ SELECT name FROM areas WHERE name  LIKE "%久%";
 ```
 SELECT name FROM areas WHERE name  LIKE "高%場" ;
 ```
+問題8
+
+```
+SELECT name
+FROM areas  
+WHERE  LOCATE ('大',name) < LOCATE ('保',name) ;
+```
+
+問題９
+
+```
+SELECT name
+FROM areas  
+WHERE  name LIKE '_田%' ;
+```
+
+問題10
+
+```
+SELECT *
+FROM areas  
+WHERE LENGTH(name) = 4 ;
+```
