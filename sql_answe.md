@@ -143,3 +143,10 @@ SELECT  student_id ,total,used
 FROM student_points
 WHERE total >= 7000 AND used <= 2000
 ```
+問題23
+
+```
+SELECT  tag_id
+FROM taggings
+WHERE taggable_type = 'Lecture' AND taggable_id >= 6066
+```
