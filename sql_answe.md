@@ -59,3 +59,11 @@ SELECT *
 FROM areas  
 WHERE LENGTH(name) = 4 ;
 ```
+
+問題11
+
+```
+SELECT code , name
+FROM roles
+GROUP BY code ,name
+```
