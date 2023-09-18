@@ -130,3 +130,9 @@ AND code LIKE '%E%'
 AND code NOT LIKE '%O%'
 AND code NOT LIKE '%P%'
 ```
+問題21
+```
+SELECT  student_id ,total
+FROM student_points
+WHERE total >= 7000
+```
