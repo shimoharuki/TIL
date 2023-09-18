@@ -170,3 +170,9 @@ FROM rooms
 WHERE description = 'classroom 301' AND name = 301
 OR description = 'classroom 305' AND name = 305
 ```
+問題27 
+```
+SELECT  *
+FROM rooms 
+WHERE name = 201 AND description NOT LIKE '%土日%' AND description NOT LIKE '%視聴覚室予定%'
+```
