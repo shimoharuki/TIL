@@ -150,3 +150,10 @@ SELECT  tag_id
 FROM taggings
 WHERE taggable_type = 'Lecture' AND taggable_id >= 6066
 ```
+問題24 
+```
+SELECT  *
+FROM subject_types
+WHERE name IN ('通訳不要', '通訳必要', '通訳手配済み','デフォルト')
+
+```
