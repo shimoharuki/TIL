@@ -15,3 +15,24 @@ SELECT name,code FROM areas WHERE name IN ("高田馬場","大阪","京都 ");
 ```
 SELECT name,code FROM areas WHERE code BETWEEN 01 AND 11;
 ```
+問題４
+
+```
+SELECT name FROM areas WHERE name  LIKE "大%";
+```
+
+問題５
+```
+SELECT name FROM areas WHERE name  LIKE "%場";
+```
+
+問題6
+
+```
+SELECT name FROM areas WHERE name  LIKE "%久%";
+```
+
+問題７
+```
+SELECT name FROM areas WHERE name  LIKE "高%場" ;
+```
