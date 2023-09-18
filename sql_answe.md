@@ -10,3 +10,8 @@ SELECT  code FROM areas WHERE name = "大阪" ;
 ```
 SELECT name,code FROM areas WHERE name IN ("高田馬場","大阪","京都 ");
 ```
+
+問題３
+```
+SELECT name,code FROM areas WHERE code BETWEEN 01 AND 11;
+```
