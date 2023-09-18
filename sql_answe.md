@@ -107,3 +107,9 @@ SELECT  ROUND (price / 100000,  1 )
 FROM courses
 WHERE name = "面接試験対策直前特訓"
 ```
+問題18
+```
+SELECT code , name
+FROM roles
+WHERE LENGTH (code) = LENGTH (name)
+```
