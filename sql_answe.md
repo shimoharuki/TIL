@@ -67,3 +67,10 @@ SELECT code , name
 FROM roles
 GROUP BY code ,name
 ```
+
+問題12 
+```
+SELECT name
+FROM courses
+WHERE price >= 120000
+```
