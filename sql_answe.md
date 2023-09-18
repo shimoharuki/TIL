@@ -74,3 +74,16 @@ SELECT name
 FROM courses
 WHERE price >= 120000
 ```
+問題13
+```
+SELECT price /10000  '万円'
+FROM courses
+WHERE name = "予備総合コース";
+```
+
+問題14
+```
+SELECT name , code
+FROM roles
+WHERE code IN ('STAFF_ADMIN', 'MASTER_CONTROL','STUDENT_PRIVACY_ACCESSIBLE')
+```
