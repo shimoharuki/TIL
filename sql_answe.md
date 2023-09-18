@@ -176,3 +176,10 @@ SELECT  *
 FROM rooms 
 WHERE name = 201 AND description NOT LIKE '%土日%' AND description NOT LIKE '%視聴覚室予定%'
 ```
+問題28
+```
+SELECT  name ,seat_number 
+FROM rooms
+WHERE name LIKE '20%'
+ORDER BY seat_number DESC, name ASC
+```
