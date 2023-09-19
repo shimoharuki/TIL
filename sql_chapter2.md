@@ -48,3 +48,9 @@ SELECT SUM(seat_number)
 FROM rooms
 WHERE building_id IN (13,14,15)
 ```
+問題8
+```
+SELECT SUM(seat_number),building_id
+FROM rooms
+GROUP BY (building_id)
+```
