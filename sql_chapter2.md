@@ -70,3 +70,12 @@ GROUP BY (building_id)
 HAVING SUM(seat_number) >= 200
 ```
 
+問題11
+```
+SELECT rooms.name, buildings.name
+FROM rooms AS rooms
+INNER JOIN buildings AS buildings
+ON rooms.name = buildings.name
+WHERE rooms.name = 701
+```
+
