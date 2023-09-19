@@ -31,3 +31,9 @@ DELETE
 FROM provinces
 WHERE name = '宮崎' AND code = 'NY'
 ```
+問題6
+```
+DELETE 
+FROM roles
+WHERE name = '営業管理者' AND code = 'SALES_ADMIN'
+```
