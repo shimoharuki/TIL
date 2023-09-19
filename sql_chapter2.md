@@ -62,3 +62,11 @@ WHERE seat_number >= 30
 GROUP BY (building_id)
 ORDER BY building_id ASC
 ```
+問題10
+```
+SELECT building_id, SUM(seat_number)
+FROM rooms AS T1
+GROUP BY (building_id)
+HAVING SUM(seat_number) >= 200
+```
+
