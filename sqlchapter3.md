@@ -5,3 +5,9 @@
 INSERT INTO provinces (name,code)
 VALUES ('奈良','sh')
 ```
+
+問題2
+```
+INSERT INTO roles (name,code)
+VALUES ('営業管理','SALES_ADMIN')
+```
