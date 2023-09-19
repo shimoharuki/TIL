@@ -42,3 +42,9 @@ SELECT COUNT(sex)
 FROM students
 WHERE sex = 1
 ```
+問題7 
+```
+SELECT SUM(seat_number)
+FROM rooms
+WHERE building_id IN (13,14,15)
+```
