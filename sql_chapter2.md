@@ -32,7 +32,6 @@ FROM users
 ```
 問題5
 ```
-SELECT *
+SELECT DISTINCT sex
 FROM students
-GROUP BY sex
 ```
