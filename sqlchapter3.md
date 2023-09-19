@@ -18,3 +18,9 @@ SET name = '宮崎', code = 'MY'
 WHERE name = '奈良' AND code = 'sh'
 ```
 
+問題4
+```
+UPDATE roles
+SET name = '営業管理者'
+WHERE name = '営業管理' AND code = 'SALES_ADMIN'
+```
