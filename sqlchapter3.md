@@ -24,3 +24,10 @@ UPDATE roles
 SET name = '営業管理者'
 WHERE name = '営業管理' AND code = 'SALES_ADMIN'
 ```
+
+問題5
+```
+DELETE 
+FROM provinces
+WHERE name = '宮崎' AND code = 'NY'
+```
