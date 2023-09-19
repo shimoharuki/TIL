@@ -30,3 +30,9 @@ WHERE seat_number  =
 SELECT SUM(sign_in_count)
 FROM users
 ```
+問題5
+```
+SELECT *
+FROM students
+GROUP BY sex
+```
