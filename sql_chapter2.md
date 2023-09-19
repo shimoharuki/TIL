@@ -54,3 +54,11 @@ SELECT SUM(seat_number),building_id
 FROM rooms
 GROUP BY (building_id)
 ```
+問題9
+```
+SELECT building_id
+FROM rooms
+WHERE seat_number >= 30
+GROUP BY (building_id)
+ORDER BY building_id ASC
+```
