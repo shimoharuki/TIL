@@ -35,3 +35,10 @@ FROM users
 SELECT DISTINCT sex
 FROM students
 ```
+問題6
+
+```
+SELECT COUNT(sex)
+FROM students
+WHERE sex = 1
+```
