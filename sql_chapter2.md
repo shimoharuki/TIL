@@ -24,3 +24,9 @@ WHERE seat_number  =
  WHERE T1.building_id = T2.building_id
 )
 ```
+
+問題4
+```
+SELECT SUM(sign_in_count)
+FROM users
+```
